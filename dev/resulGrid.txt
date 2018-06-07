@@ -1,0 +1,592 @@
+psed time: 7.032416820526123
+-- Grid Parameter Search via 10-fold CV
+/Users/Clay/anaconda3/lib/python3.5/site-packages/sklearn/model_selection/_search.py:747: DeprecationWarning: The grid_scores_ attribute was deprecated in version 0.18 in favor of the more elaborate cv_results_ attribute. The grid_scores_ attribute will not be available from 0.20
+  DeprecationWarning)
+
+GridSearchCV took 6716.69 seconds for 144 candidate parameter settings.
+/Users/Clay/anaconda3/lib/python3.5/site-packages/sklearn/model_selection/_search.py:747: DeprecationWarning: The grid_scores_ attribute was deprecated in version 0.18 in favor of the more elaborate cv_results_ attribute. The grid_scores_ attribute will not be available from 0.20
+  DeprecationWarning)
+Model with rank: 1
+Mean validation score: -0.785 (std: 0.306)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': None, 'max_depth': None, 'min_samples_split': 2}
+
+Model with rank: 2
+Mean validation score: -0.497 (std: 0.253)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': None, 'max_depth': None, 'min_samples_split': 10}
+
+Model with rank: 3
+Mean validation score: -0.359 (std: 0.249)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': None, 'max_depth': None, 'min_samples_split': 18}
+
+Model with rank: 4
+Mean validation score: -0.179 (std: 0.035)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': None, 'max_depth': None, 'min_samples_split': 2}
+
+Model with rank: 5
+Mean validation score: -0.180 (std: 0.036)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': None, 'max_depth': None, 'min_samples_split': 10}
+
+Model with rank: 6
+Mean validation score: -0.084 (std: 0.033)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': None, 'max_depth': None, 'min_samples_split': 18}
+
+Model with rank: 7
+Mean validation score: 0.002 (std: 0.009)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': None, 'max_depth': None, 'min_samples_split': 2}
+
+Model with rank: 8
+Mean validation score: 0.002 (std: 0.009)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': None, 'max_depth': None, 'min_samples_split': 10}
+
+Model with rank: 9
+Mean validation score: 0.002 (std: 0.009)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': None, 'max_depth': None, 'min_samples_split': 18}
+
+Model with rank: 10
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 5, 'max_depth': None, 'min_samples_split': 2}
+
+Model with rank: 11
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 5, 'max_depth': None, 'min_samples_split': 10}
+
+Model with rank: 12
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 5, 'max_depth': None, 'min_samples_split': 18}
+
+Model with rank: 13
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 5, 'max_depth': None, 'min_samples_split': 2}
+
+Model with rank: 14
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 5, 'max_depth': None, 'min_samples_split': 10}
+
+Model with rank: 15
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 5, 'max_depth': None, 'min_samples_split': 18}
+
+Model with rank: 16
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 5, 'max_depth': None, 'min_samples_split': 2}
+
+Model with rank: 17
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 5, 'max_depth': None, 'min_samples_split': 10}
+
+Model with rank: 18
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 5, 'max_depth': None, 'min_samples_split': 18}
+
+Model with rank: 19
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 10, 'max_depth': None, 'min_samples_split': 2}
+
+Model with rank: 20
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 10, 'max_depth': None, 'min_samples_split': 10}
+
+Model with rank: 21
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 10, 'max_depth': None, 'min_samples_split': 18}
+
+Model with rank: 22
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 10, 'max_depth': None, 'min_samples_split': 2}
+
+Model with rank: 23
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 10, 'max_depth': None, 'min_samples_split': 10}
+
+Model with rank: 24
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 10, 'max_depth': None, 'min_samples_split': 18}
+
+Model with rank: 25
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 10, 'max_depth': None, 'min_samples_split': 2}
+
+Model with rank: 26
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 10, 'max_depth': None, 'min_samples_split': 10}
+
+Model with rank: 27
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 10, 'max_depth': None, 'min_samples_split': 18}
+
+Model with rank: 28
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 18, 'max_depth': None, 'min_samples_split': 2}
+
+Model with rank: 29
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 18, 'max_depth': None, 'min_samples_split': 10}
+
+Model with rank: 30
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 18, 'max_depth': None, 'min_samples_split': 18}
+
+Model with rank: 31
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 18, 'max_depth': None, 'min_samples_split': 2}
+
+Model with rank: 32
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 18, 'max_depth': None, 'min_samples_split': 10}
+
+Model with rank: 33
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 18, 'max_depth': None, 'min_samples_split': 18}
+
+Model with rank: 34
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 18, 'max_depth': None, 'min_samples_split': 2}
+
+Model with rank: 35
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 18, 'max_depth': None, 'min_samples_split': 10}
+
+Model with rank: 36
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 18, 'max_depth': None, 'min_samples_split': 18}
+
+Model with rank: 37
+Mean validation score: 0.080 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': None, 'max_depth': 2, 'min_samples_split': 2}
+
+Model with rank: 38
+Mean validation score: 0.080 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': None, 'max_depth': 2, 'min_samples_split': 10}
+
+Model with rank: 39
+Mean validation score: 0.080 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': None, 'max_depth': 2, 'min_samples_split': 18}
+
+Model with rank: 40
+Mean validation score: 0.080 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': None, 'max_depth': 2, 'min_samples_split': 2}
+
+Model with rank: 41
+Mean validation score: 0.080 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': None, 'max_depth': 2, 'min_samples_split': 10}
+
+Model with rank: 42
+Mean validation score: 0.080 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': None, 'max_depth': 2, 'min_samples_split': 18}
+
+Model with rank: 43
+Mean validation score: 0.080 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': None, 'max_depth': 2, 'min_samples_split': 2}
+
+Model with rank: 44
+Mean validation score: 0.080 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': None, 'max_depth': 2, 'min_samples_split': 10}
+
+Model with rank: 45
+Mean validation score: 0.080 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': None, 'max_depth': 2, 'min_samples_split': 18}
+
+Model with rank: 46
+Mean validation score: 0.091 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 5, 'max_depth': 2, 'min_samples_split': 2}
+
+Model with rank: 47
+Mean validation score: 0.091 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 5, 'max_depth': 2, 'min_samples_split': 10}
+
+Model with rank: 48
+Mean validation score: 0.091 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 5, 'max_depth': 2, 'min_samples_split': 18}
+
+Model with rank: 49
+Mean validation score: 0.091 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 5, 'max_depth': 2, 'min_samples_split': 2}
+
+Model with rank: 50
+Mean validation score: 0.091 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 5, 'max_depth': 2, 'min_samples_split': 10}
+
+Model with rank: 51
+Mean validation score: 0.091 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 5, 'max_depth': 2, 'min_samples_split': 18}
+
+Model with rank: 52
+Mean validation score: 0.091 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 5, 'max_depth': 2, 'min_samples_split': 2}
+
+Model with rank: 53
+Mean validation score: 0.091 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 5, 'max_depth': 2, 'min_samples_split': 10}
+
+Model with rank: 54
+Mean validation score: 0.091 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 5, 'max_depth': 2, 'min_samples_split': 18}
+
+Model with rank: 55
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 10, 'max_depth': 2, 'min_samples_split': 2}
+
+Model with rank: 56
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 10, 'max_depth': 2, 'min_samples_split': 10}
+
+Model with rank: 57
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 10, 'max_depth': 2, 'min_samples_split': 18}
+
+Model with rank: 58
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 10, 'max_depth': 2, 'min_samples_split': 2}
+
+Model with rank: 59
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 10, 'max_depth': 2, 'min_samples_split': 10}
+
+Model with rank: 60
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 10, 'max_depth': 2, 'min_samples_split': 18}
+
+Model with rank: 61
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 10, 'max_depth': 2, 'min_samples_split': 2}
+
+Model with rank: 62
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 10, 'max_depth': 2, 'min_samples_split': 10}
+
+Model with rank: 63
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 10, 'max_depth': 2, 'min_samples_split': 18}
+
+Model with rank: 64
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 18, 'max_depth': 2, 'min_samples_split': 2}
+
+Model with rank: 65
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 18, 'max_depth': 2, 'min_samples_split': 10}
+
+Model with rank: 66
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 18, 'max_depth': 2, 'min_samples_split': 18}
+
+Model with rank: 67
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 18, 'max_depth': 2, 'min_samples_split': 2}
+
+Model with rank: 68
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 18, 'max_depth': 2, 'min_samples_split': 10}
+
+Model with rank: 69
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 18, 'max_depth': 2, 'min_samples_split': 18}
+
+Model with rank: 70
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 18, 'max_depth': 2, 'min_samples_split': 2}
+
+Model with rank: 71
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 18, 'max_depth': 2, 'min_samples_split': 10}
+
+Model with rank: 72
+Mean validation score: 0.094 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 18, 'max_depth': 2, 'min_samples_split': 18}
+
+Model with rank: 73
+Mean validation score: 0.125 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': None, 'max_depth': 5, 'min_samples_split': 2}
+
+Model with rank: 74
+Mean validation score: 0.125 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': None, 'max_depth': 5, 'min_samples_split': 10}
+
+Model with rank: 75
+Mean validation score: 0.125 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': None, 'max_depth': 5, 'min_samples_split': 18}
+
+Model with rank: 76
+Mean validation score: 0.125 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': None, 'max_depth': 5, 'min_samples_split': 2}
+
+Model with rank: 77
+Mean validation score: 0.125 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': None, 'max_depth': 5, 'min_samples_split': 10}
+
+Model with rank: 78
+Mean validation score: 0.125 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': None, 'max_depth': 5, 'min_samples_split': 18}
+
+Model with rank: 79
+Mean validation score: 0.125 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': None, 'max_depth': 5, 'min_samples_split': 2}
+
+Model with rank: 80
+Mean validation score: 0.125 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': None, 'max_depth': 5, 'min_samples_split': 10}
+
+Model with rank: 81
+Mean validation score: 0.125 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': None, 'max_depth': 5, 'min_samples_split': 18}
+
+Model with rank: 82
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 5, 'max_depth': 5, 'min_samples_split': 2}
+
+Model with rank: 83
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 5, 'max_depth': 5, 'min_samples_split': 10}
+
+Model with rank: 84
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 5, 'max_depth': 5, 'min_samples_split': 18}
+
+Model with rank: 85
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 5, 'max_depth': 5, 'min_samples_split': 2}
+
+Model with rank: 86
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 5, 'max_depth': 5, 'min_samples_split': 10}
+
+Model with rank: 87
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 5, 'max_depth': 5, 'min_samples_split': 18}
+
+Model with rank: 88
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 5, 'max_depth': 5, 'min_samples_split': 2}
+
+Model with rank: 89
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 5, 'max_depth': 5, 'min_samples_split': 10}
+
+Model with rank: 90
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 5, 'max_depth': 5, 'min_samples_split': 18}
+
+Model with rank: 91
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 10, 'max_depth': 5, 'min_samples_split': 2}
+
+Model with rank: 92
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 10, 'max_depth': 5, 'min_samples_split': 10}
+
+Model with rank: 93
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 10, 'max_depth': 5, 'min_samples_split': 18}
+
+Model with rank: 94
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 10, 'max_depth': 5, 'min_samples_split': 2}
+
+Model with rank: 95
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 10, 'max_depth': 5, 'min_samples_split': 10}
+
+Model with rank: 96
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 10, 'max_depth': 5, 'min_samples_split': 18}
+
+Model with rank: 97
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 10, 'max_depth': 5, 'min_samples_split': 2}
+
+Model with rank: 98
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 10, 'max_depth': 5, 'min_samples_split': 10}
+
+Model with rank: 99
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 10, 'max_depth': 5, 'min_samples_split': 18}
+
+Model with rank: 100
+Mean validation score: 0.132 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 18, 'max_depth': 5, 'min_samples_split': 2}
+
+Model with rank: 101
+Mean validation score: 0.132 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 18, 'max_depth': 5, 'min_samples_split': 10}
+
+Model with rank: 102
+Mean validation score: 0.132 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 18, 'max_depth': 5, 'min_samples_split': 18}
+
+Model with rank: 103
+Mean validation score: 0.132 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 18, 'max_depth': 5, 'min_samples_split': 2}
+
+Model with rank: 104
+Mean validation score: 0.132 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 18, 'max_depth': 5, 'min_samples_split': 10}
+
+Model with rank: 105
+Mean validation score: 0.132 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 18, 'max_depth': 5, 'min_samples_split': 18}
+
+Model with rank: 106
+Mean validation score: 0.132 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 18, 'max_depth': 5, 'min_samples_split': 2}
+
+Model with rank: 107
+Mean validation score: 0.132 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 18, 'max_depth': 5, 'min_samples_split': 10}
+
+Model with rank: 108
+Mean validation score: 0.132 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 18, 'max_depth': 5, 'min_samples_split': 18}
+
+Model with rank: 109
+Mean validation score: 0.155 (std: 0.025)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': None, 'max_depth': 10, 'min_samples_split': 2}
+
+Model with rank: 110
+Mean validation score: 0.159 (std: 0.023)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': None, 'max_depth': 10, 'min_samples_split': 10}
+
+Model with rank: 111
+Mean validation score: 0.159 (std: 0.023)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': None, 'max_depth': 10, 'min_samples_split': 18}
+
+Model with rank: 112
+Mean validation score: 0.171 (std: 0.008)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': None, 'max_depth': 10, 'min_samples_split': 2}
+
+Model with rank: 113
+Mean validation score: 0.171 (std: 0.008)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': None, 'max_depth': 10, 'min_samples_split': 10}
+
+Model with rank: 114
+Mean validation score: 0.171 (std: 0.008)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': None, 'max_depth': 10, 'min_samples_split': 18}
+
+Model with rank: 115
+Mean validation score: 0.176 (std: 0.002)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': None, 'max_depth': 10, 'min_samples_split': 2}
+
+Model with rank: 116
+Mean validation score: 0.176 (std: 0.002)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': None, 'max_depth': 10, 'min_samples_split': 10}
+
+Model with rank: 117
+Mean validation score: 0.176 (std: 0.002)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': None, 'max_depth': 10, 'min_samples_split': 18}
+
+Model with rank: 118
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 5, 'max_depth': 10, 'min_samples_split': 2}
+
+Model with rank: 119
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 5, 'max_depth': 10, 'min_samples_split': 10}
+
+Model with rank: 120
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 5, 'max_depth': 10, 'min_samples_split': 18}
+
+Model with rank: 121
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 5, 'max_depth': 10, 'min_samples_split': 2}
+
+Model with rank: 122
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 5, 'max_depth': 10, 'min_samples_split': 10}
+
+Model with rank: 123
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 5, 'max_depth': 10, 'min_samples_split': 18}
+
+Model with rank: 124
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 5, 'max_depth': 10, 'min_samples_split': 2}
+
+Model with rank: 125
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 5, 'max_depth': 10, 'min_samples_split': 10}
+
+Model with rank: 126
+Mean validation score: 0.100 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 5, 'max_depth': 10, 'min_samples_split': 18}
+
+Model with rank: 127
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 10, 'max_depth': 10, 'min_samples_split': 2}
+
+Model with rank: 128
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 10, 'max_depth': 10, 'min_samples_split': 10}
+
+Model with rank: 129
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 10, 'max_depth': 10, 'min_samples_split': 18}
+
+Model with rank: 130
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 10, 'max_depth': 10, 'min_samples_split': 2}
+
+Model with rank: 131
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 10, 'max_depth': 10, 'min_samples_split': 10}
+
+Model with rank: 132
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 10, 'max_depth': 10, 'min_samples_split': 18}
+
+Model with rank: 133
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 10, 'max_depth': 10, 'min_samples_split': 2}
+
+Model with rank: 134
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 10, 'max_depth': 10, 'min_samples_split': 10}
+
+Model with rank: 135
+Mean validation score: 0.122 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 10, 'max_depth': 10, 'min_samples_split': 18}
+
+Model with rank: 136
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 18, 'max_depth': 10, 'min_samples_split': 2}
+
+Model with rank: 137
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 18, 'max_depth': 10, 'min_samples_split': 10}
+
+Model with rank: 138
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 1, 'max_leaf_nodes': 18, 'max_depth': 10, 'min_samples_split': 18}
+
+Model with rank: 139
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 18, 'max_depth': 10, 'min_samples_split': 2}
+
+Model with rank: 140
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 18, 'max_depth': 10, 'min_samples_split': 10}
+
+Model with rank: 141
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 5, 'max_leaf_nodes': 18, 'max_depth': 10, 'min_samples_split': 18}
+
+Model with rank: 142
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 18, 'max_depth': 10, 'min_samples_split': 2}
+
+Model with rank: 143
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 18, 'max_depth': 10, 'min_samples_split': 10}
+
+Model with rank: 144
+Mean validation score: 0.137 (std: 0.001)
+Parameters: {'min_samples_leaf': 10, 'max_leaf_nodes': 18, 'max_depth': 10, 'min_samples_split': 18}
+
+Traceback (most recent call last):
+  File "gridsearchcv.py", line 78, in <module>
+    ts_gs = run_gridsearch(X_train_processed, y_train, dt, param_grid, cv=5)
+  File "gridsearchcv.py", line 59, in run_gridsearch
+    top_params = report(grid_search.grid_scores_, 3)
+  File "gridsearchcv.py", line 31, in report
+    return top_scores[0].parameters
+NameError: name 'top_scores' is not defined

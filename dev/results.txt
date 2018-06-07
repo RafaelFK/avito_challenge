@@ -1,0 +1,10 @@
+RandomForestRegressor(n_estimators=40, max_depth=10): 
+
+loading data elapsed time: 7.732326030731201
+Fitting & Predicting time: 596.6228091716766
+RMSE: 0.233696857496
+Mean: 0.234752072354
+std: 0.000847302808898
+
+
+
